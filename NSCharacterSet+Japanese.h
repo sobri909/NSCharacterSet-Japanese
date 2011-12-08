@@ -12,5 +12,6 @@
 + (id)kanjiCharacterSet;
 + (id)hiraganaCharacterSet;
 + (id)katakanaCharacterSet;
++ (id)youonCharacterSet;
 
 @end

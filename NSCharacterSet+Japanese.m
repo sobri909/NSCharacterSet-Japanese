@@ -24,4 +24,9 @@
             NSMakeRange(0x30a0, 0x30ff-0x30a0)];
 }
 
++ (id)youonCharacterSet {
+    return [NSCharacterSet characterSetWithCharactersInString:
+            @"ゃゅょャュョ"];
+}
+
 @end
